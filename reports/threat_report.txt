@@ -1,0 +1,30 @@
+========================================
+ THREAT DETECTED!
+IP Address      : 192.168.1.20
+Failed Attempts : 6
+Severity        : High
+Threat          : Possible Brute Force Attack
+========================================
+========================================
+ THREAT DETECTED!
+IP Address      : 192.168.1.15
+Failed Attempts : 3
+Severity        : High
+Threat          : Possible Brute Force Attack
+========================================
+========================================
+ SUSPICIOUS
+IP Address      : 192.168.1.25
+Failed Attempts : 2
+Threat          : Negligeble
+========================================
+========================================
+ SUSPICIOUS
+IP Address      : 192.168.1.80
+Failed Attempts : 2
+Threat          : Negligeble
+========================================
+=======Threat-Watch-Alert-Report========
+Suspicious Ip           : 0
+Medium Threats      : 3
+High Threats            : 1

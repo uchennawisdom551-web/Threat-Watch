@@ -6,7 +6,7 @@ def woo():
     for substance in file:
         parts = substance.strip().split()
         part = {'Date': parts[0],
-        'Time': parts[1], 'Ip' : parts[2], 'Status' :       parts[3]}
+        'Time': parts[1], 'Ip' : parts[2], 'Status' : parts[3]}      
         events.append(part)
         print('-' * 35)
         count+=1
@@ -15,3 +15,6 @@ def woo():
         print()
         for Key, value in part.items():
            print (f'{Key: <10}: {value}')
+
+ return events
+    
