@@ -43,18 +43,22 @@ Threat-Watch/
 ├── logs/
 │   └── sample.log
 │
+├── reports/
+│   └── threat_report.txt
+│
 ├── src/
 │   ├── parser.py
-│   └── Detection.py
+│   ├── Detection.py
+│   └── pydroid1.py
 │
 ├── screenshots/
 │   ├── Sprint1/
 │   ├── Sprint2/
+│   ├── Sprint3/
 │   └── Sprint4/
 │
 ├── README.md
 └── main.py
-```
 
 ## Technologies Used
 
