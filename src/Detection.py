@@ -38,7 +38,7 @@ def show_suspicious():
                     if failures >=3:
                         print("=" * 40 + "\n")
                         print(" THREAT DETECTED!\n")
-                        print(f"{critical:<10}      : {ip}\n")
+                        print(f"Ip_Address  : {ip}\n")
                         print(f"Failed Attempts : {failures}\n")
                         print(f"Severity      : High\n")
                         print("Threat          : Possible Brute Force Attack\n")

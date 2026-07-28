@@ -30,11 +30,14 @@ Threat-Watch is a beginner-friendly cybersecurity project built with Python to s
 - Classified suspicious and high-risk IP addreour?
 
   
-- ### Sprint 4 – Threat Report Generation
+- ### Sprint 4– Threat Report Generation
 - Generated a threat report (`threat_report.txt`)
 - Saved detected threats to a text file
 - Added a summary of detected threats
 
+- ### Sprint 5- Interactive CLI Threat-Watch Menu
+- Built a menu for CLI interactiveness 
+- For security Log analysis and Threat-Reporting
 ## Project Structure
 
 ```
