@@ -38,6 +38,10 @@ Threat-Watch is a beginner-friendly cybersecurity project built with Python to s
 - ### Sprint 5- Interactive CLI Threat-Watch Menu
 - Built a menu for CLI interactiveness 
 - For security Log analysis and Threat-Reporting
+### Sprint 6- Saved reports to a JSON file 
+- Built a variable structure for json data 
+- Added them to a list using a dictionary 
+- Opened a JSON file and saved them inside
 ## Project Structure
 
 ```

@@ -1,0 +1,26 @@
+[
+    {
+        "Ip": "192.168.1.20",
+        "Failed_Attempts": 6,
+        "Severity": "High",
+        "Threat": "Possible Brute Force Attack"
+    },
+    {
+        "Ip": "192.168.1.15",
+        "Failed_Attempts": 3,
+        "Severity": "High",
+        "Threat": "Possible Brute Force Attack"
+    },
+    {
+        "Ip": "192.168.1.25",
+        "Failed_Attempts": 2,
+        "Severity": "Low",
+        "Threat": "Negligible"
+    },
+    {
+        "Ip": "192.168.1.80",
+        "Failed_Attempts": 2,
+        "Severity": "Low",
+        "Threat": "Negligible"
+    }
+]
