@@ -4,11 +4,12 @@ from pydroid1 import woo
 def show_suspicious():
 
     Variable = woo()
+    # A Dictionary meant for storing logs with Failed login_attmpts 
     failed_attempts = {}
     report_data = []
     for event in Variable:
         status = event["Status"]
- 
+        #Counts the number of failed login_attempts 
         if "FAILED" in status:
             ip = event["Ip"]
 
@@ -17,7 +18,7 @@ def show_suspicious():
             else:
                 failed_attempts[ip]=1
                 
-                
+                #JSON report built 
             for ip, failures in failed_attempts.items():
                      if failures >= 3:
                         severity = "High"
@@ -34,11 +35,11 @@ def show_suspicious():
     
                     
                                  
-                                                              
-                     with open("../reports/threat_report.  json", "w") as file:
+                       #opens a new file named Json                                       
+                     with open("../reports/threat_report.json", "w") as file:
                       json.dump(report_data, file, indent=4)  
                      
-     
+    #Program Menu  
     while True:
       try:
           print()
@@ -52,7 +53,7 @@ def show_suspicious():
 
           if choice ==3:
                  break
-         
+         #Speccifically Displays the Ip addresses and thier level of impacts if any
           if choice == 1:
             for ip, failures in failed_attempts.items():
                 if failures >=3:
@@ -85,7 +86,7 @@ def show_suspicious():
                                 high+=1
                             else:
                                  low+=1
-                  
+                  #Prints the level of Risks being conveyed 
                    print("=======Threat-Watch-Alert-Report========\n")          
                  
                         
