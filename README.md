@@ -47,6 +47,23 @@ Threat-Watch is a beginner-friendly cybersecurity project built with Python to s
 -Display the right information to user
 ## Project Structure
 
+
+
+
+
+
+
+
+
+
+
+## Future Improvements
+
+- [ ] AWS CloudTrail Integration
+- [ ] Amazon S3 Support
+- [ ] IAM Monitoring
+- [ ] Email Alerts
+- [ ] Dashboard
 ```
 Threat-Watch/
 │
