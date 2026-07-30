@@ -42,6 +42,9 @@ Threat-Watch is a beginner-friendly cybersecurity project built with Python to s
 - Built a variable structure for json data 
 - Added them to a list using a dictionary 
 - Opened a JSON file and saved them inside
+### Sprint 7- Error detection and handling 
+-Added try/except condition that could detect errors
+-Display the right information to user
 ## Project Structure
 
 ```
