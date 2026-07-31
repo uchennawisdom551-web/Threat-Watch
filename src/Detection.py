@@ -41,7 +41,7 @@ def show_suspicious():
                      
     #Program Menu  
     while True:
-      try:
+    #  try:
           print()
           print()
           print("======= ThreatWatch =========")
@@ -94,8 +94,8 @@ def show_suspicious():
                    print(f"Medium Threats      : {high}\n")
                    print(f"High Threats            : {critical}\n")
         
-      except:
-           print("Pls enter a valid number")
+     # except:
+           #print("Pls enter a valid number")
    
              
              
