@@ -12,6 +12,11 @@ def cloud():
             for add, number in value.items():
               print(f'{add:<20} : {number}')
    return Variable
+   
+   
+   
+   
+cloud()
             
             
             
