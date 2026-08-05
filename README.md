@@ -9,11 +9,7 @@
 ---
 
 ## 📖 Overview
-
-Threat-Watch is a beginner-friendly SOC simulation built to demonstrate fundamental security monitoring concepts using Python.
-
-The project processes authentication logs, identifies repeated failed login attempts, classifies threats based on severity, and exports incident reports in multiple formats.
-
+Threat-Watch is a Python-based SOC simulation designed to automate authentication log analysis and identify suspicious activity through threat classification and incident reporting.
 This project reflects the workflow of a Security Operations Center by automating log analysis and highlighting suspicious authentication activity.
 
 ---
