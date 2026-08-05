@@ -1,111 +1,85 @@
-# Threat-Watch
-
-Threat-Watch is a beginner-friendly cybersecurity project built with Python to simulate basic Security Operations Center (SOC) log analysis. It parses authentication logs, detects suspicious login activity, and identifies possible brute-force attacks.
-
-## Features
-
-- Parse authentication log files
-- Display log events in a readable format
-- Count failed login attempts per IP address
-- Detect suspicious IP addresses
-- Classify threats by severity
-- Display a threat detection summary
-
-## Project Progress
-
-### Sprint 1 – Log Parsing
-- Created sample authentication logs
-- Parsed log entries into Python dictionaries
-- Displayed events in a readable format
-
-### Sprint 2 – Threat Detection
-- Imported parser into the detection module
-- Counted failed login attempts per IP address
-- Generated alerts for IP addresses with multiple failed login attempts
-
-### Sprint 3– Threat Intelligence
-- Added threat severity classification
-- Improved alert formatting
-- Added threat summary dashboard
-- Classified suspicious and high-risk IP addreour?
-
-  
-- ### Sprint 4– Threat Report Generation
-- Generated a threat report (`threat_report.txt`)
-- Saved detected threats to a text file
-- Added a summary of detected threats
-
-- ### Sprint 5- Interactive CLI Threat-Watch Menu
-- Built a menu for CLI interactiveness 
-- For security Log analysis and Threat-Reporting
-### Sprint 6- Saved reports to a JSON file 
-- Built a variable structure for json data 
-- Added them to a list using a dictionary 
-- Opened a JSON file and saved them inside
-### Sprint 7- Error detection and handling 
--Added try/except condition that could detect errors
--Display the right information to user
-## Project Structure
-
-
-
-
-
-
-
-
-
-
-
-## Future Improvements
-
-- [ ] AWS CloudTrail Integration
-- [ ] Amazon S3 Support
-- [ ] IAM Monitoring
-- [ ] Email Alerts
-- [ ] Dashboard
-```
+Threat-Watch
+Threat-Watch is a Python-based Security Operations Center (SOC) simulation that analyzes authentication logs, detects brute-force attacks, classifies threats by severity, and generates structured security reports.
+Features
+Parse authentication log files
+Display log events in a readable format
+Count failed login attempts per IP address
+Detect suspicious IP addresses
+Classify threats by severity
+Generate threat reports in TXT and JSON formats
+Interactive CLI menu for security log analysis
+Project Progress
+Sprint 1 – Log Parsing
+Created sample authentication logs
+Parsed log entries into Python dictionaries
+Displayed events in a readable format
+Sprint 2 – Threat Detection
+Counted failed login attempts per IP address
+Detected suspicious IP addresses
+Generated brute-force alerts
+Sprint 3 – Threat Intelligence
+Implemented threat severity classification
+Improved alert formatting
+Added a threat detection summary
+Classified suspicious and high-risk IP addresses
+Sprint 4 – Threat Report Generation
+Generated threat_report.txt
+Exported detected threats to a report
+Added report summaries
+Sprint 5 – Interactive CLI
+Built an interactive command-line menu
+Enabled log analysis and report generation through the CLI
+Sprint 6 – JSON Report Export
+Stored detected threats using dictionaries and lists
+Exported reports to threat_report.json
+Sprint 7 – Error Handling
+Added try/except blocks
+Improved program stability
+Displayed user-friendly error messages
+Project Structure
 Threat-Watch/
 │
 ├── logs/
 │   └── sample.log
 │
 ├── reports/
-│   └── threat_report.txt
+│   ├── threat_report.txt
+│   └── threat_report.json
 │
 ├── src/
 │   ├── parser.py
-│   ├── Detection.py
+│   ├── detection.py
 │   └── pydroid1.py
 │
 ├── screenshots/
 │   ├── Sprint1/
 │   ├── Sprint2/
 │   ├── Sprint3/
-│   └── Sprint4/
+│   ├── Sprint4/
+│   ├── Sprint5/
+│   ├── Sprint6/
+│   └── Sprint7/
 │
 ├── README.md
 └── main.py
-
-## Technologies Used
-
-- Python
-- Dictionaries
-- Lists
-- Loops
-- Functions
-- File Handling
-
-## Future Improvements
-
-- Generate `alerts.txt` incident reports
-- Export reports to CSV
-- Detect multiple attack types
-- Add configurable alert thresholds
-- Build a command-line interface (CLI)
-
-## Author
-
-**Uchenna Wisdom**
-
-Cybersecurity Student | Python Learner | Aspiring Cybersecurity Architect
+Technologies Used
+Python
+JSON
+File Handling
+Dictionaries
+Lists
+Functions
+Exception Handling
+Command-Line Interface (CLI)
+Future Improvements
+[ ] AWS CloudTrail Integration
+[ ] Amazon S3 Support
+[ ] IAM Activity Monitoring
+[ ] Email Alerting
+[ ] Web Dashboard
+[ ] Support for additional attack types
+[ ] CSV Report Export
+[ ] Configurable alert thresholds
+Author
+Uchenna Wisdom Chiziterem
+Cybersecurity Student | Python Developer | SOC & Cloud Security Enthusiast | Aspiring Cybersecurity Architect
