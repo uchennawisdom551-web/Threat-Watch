@@ -5,7 +5,7 @@ from io import BytesIO
 import pandas as pd
 
 s3 = boto3.client(
-    "s3", endpoint_url="http://172.16.32.163:4566",
+    "s3", endpoint_url="http://10.115.65.52:4566",
     region_name="us-east-1",
     aws_access_key_id="test",
     aws_secret_access_key="test"
@@ -25,7 +25,7 @@ for obj in response.get("Contents", []):
 
     if not key.endswith(".json.gz"):
         continue
-    print(f"[+]  Fetching: {key}")
+    #print(f"[+]  Fetching: {key}")
 
     result = s3.get_object(
         Bucket=BUCKET,
@@ -55,15 +55,17 @@ for event in events:
 
 df = pd.DataFrame(processed)
 df["time"] = pd.to_datetime(df["time"], utc=True)
-print(df["time"].min())
-print(df["time"].max())
-print(df["time"].dtype)
+#print(df["time"].min())
+#print(df["time"].max())
+#print(df["time"].dtype)
 #print(df["time"].head())
-print(df["time"].isnull().sum())  
+print(df["user"].value_counts())
+print(df["action"].value_counts())
+print(df.isnull().sum())  
 
 
-hourly_events = df.groupby(df["time"].dt.floor("h")).size()
-print(hourly_events)
+#hourly_events = df.groupby(df["time"].dt.floor("h")).size()
+#print(hourly_events)
 print('Events Counted:', len(events))
 
 
