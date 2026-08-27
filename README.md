@@ -81,16 +81,12 @@ This project reflects the workflow of a Security Operations Center by automating
 - Added exception handling
 - Improved stability
 - Displayed meaningful error messages
-
-
+- 
 ## Sprint 8 - AWS CloudTrail Integration
 - Added log data from AWS CloudTrail to TreatWatch
 - Cleaned log data, checked for missing values
-- Counted events occured per Hour                                                                                         
-
-
----
-
+- Counted events occured per Hour
+                                                                                      
 # 📂 Project Structure
 
 ```text
@@ -112,9 +108,6 @@ Threat-Watch/
 │
 ├── README.md
 └── main.py
-```
-
----
 
 # 🛠 Technologies
 
@@ -125,8 +118,6 @@ Threat-Watch/
 - Functions
 - Exception Handling
 - File Handling
-
----
 
 # 📈 Current Capabilities
 
