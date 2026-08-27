@@ -82,6 +82,13 @@ This project reflects the workflow of a Security Operations Center by automating
 - Improved stability
 - Displayed meaningful error messages
 
+
+## Sprint 8 - AWS CloudTrail Integration
+- Added log data from AWS CloudTrail to TreatWatch
+- Cleaned log data, checked for missing values
+- Counted events occured per Hour                                                                                         
+
+
 ---
 
 # 📂 Project Structure
